@@ -1,7 +1,8 @@
 //ejemplo para MiriadaX Modulo 5 github
 var numero = Math.random()
+var srt='MAYOR que 0.5'
 if (numero <= 0.5){
-  console.log('El numero es menor que 0.5')
-}else {
-  console.log('El numero es mayor que 0.5')
+  str= 'MENOR que 0.5'
 }
+}
+console.log('El numero es ' + numero + ' y es ' + str)
